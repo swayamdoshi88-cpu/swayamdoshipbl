@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
-import { Participant, Expense, PackingItem, Balance, WhoOwesWhom, ExpenseCategory } from '../types';
-import { EXPENSE_CATEGORIES, DEFAULT_CURRENCY, SUPPORTED_CURRENCIES, EXCHANGE_RATES, CURRENCY_SYMBOLS } from '../constants';
+import { Participant, Expense, PackingItem, Balance, WhoOwesWhom, ExpenseCategory } from './types';
+import { EXPENSE_CATEGORIES, DEFAULT_CURRENCY, SUPPORTED_CURRENCIES, EXCHANGE_RATES, CURRENCY_SYMBOLS } from './constants';
 import { AiSpendingTips } from './AiSpendingTips';
 import { v4 as uuidv4 } from 'uuid';
 
