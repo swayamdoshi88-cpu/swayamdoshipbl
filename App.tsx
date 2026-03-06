@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import HeroSection from "./HeroSection";
-import { TeamSection } from './components/TeamSection';
-import { ProblemSection } from './components/ProblemSection';
-import { SolutionSection } from './components/SolutionSection';
-import { FeaturesSection } from './components/FeaturesSection';
-import { ExpenseSplitter } from './components/ExpenseSplitter';
-import { Footer } from './components/Footer';
-import { Header } from './components/Header';
-import { LoginPage } from './components/LoginPage'; // Import the new LoginPage
+import { TeamSection } from './TeamSection';
+import { ProblemSection } from './ProblemSection';
+import { SolutionSection } from './SolutionSection';
+import { FeaturesSection } from './FeaturesSection';
+import { ExpenseSplitter } from './ExpenseSplitter';
+import { Footer } from './Footer';
+import { Header } from './Header';
+import { LoginPage } from './LoginPage';
 
 const App: React.FC = () => {
   const [showLoginPage, setShowLoginPage] = useState(false);
