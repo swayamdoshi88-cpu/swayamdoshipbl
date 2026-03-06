@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { HeroSection } from './components/HeroSection';
+import HeroSection from "./HeroSection";
 import { TeamSection } from './components/TeamSection';
 import { ProblemSection } from './components/ProblemSection';
 import { SolutionSection } from './components/SolutionSection';
