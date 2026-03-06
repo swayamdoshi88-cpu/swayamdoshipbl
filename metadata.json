@@ -1,0 +1,5 @@
+{
+  "name": "Trip Expense Splitter",
+  "description": "A web application to easily split trip expenses among friends, manage packing lists, and get AI-powered spending tips.",
+  "requestFramePermissions": []
+}
